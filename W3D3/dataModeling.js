@@ -202,11 +202,11 @@ return result;
 //ex-8
 
 function avgDuration (movies) {
-var total = 0
-for(var i = 0; i < movies.length; i++) {
-  total += movies[i].duration
-}
-return total/movies.length;
+  var total = 0
+  for(var i = 0; i < movies.length; i++) {
+    total += movies[i].duration
+  }
+  return total/movies.length;
 }
 
 
